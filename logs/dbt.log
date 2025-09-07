@@ -1,0 +1,51 @@
+[0m22:54:45.074420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825e527a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825fc71950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825d3abd90>]}
+
+
+============================== 22:54:45.078116 | 2e2f933b-6662-4047-a476-29eb11e7ac78 ==============================
+[0m22:54:45.078116 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:54:45.078642 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'debug': 'False', 'write_json': 'True', 'quiet': 'False', 'no_print': 'None', 'warn_error': 'None', 'profiles_dir': '/home/mohamed/.dbt', 'printer_width': '80', 'static_parser': 'True', 'log_path': 'logs', 'cache_selected_only': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_format': 'default', 'invocation_command': 'dbt init movielens-elt-pipeline', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'empty': 'None', 'target_path': 'None', 'indirect_selection': 'eager', 'introspect': 'True'}
+[0m22:56:38.222569 [debug] [MainThread]: Starter project path: /media/sda3/projects/MovieLens-elt-pipeline/dbt_venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m22:56:38.340970 [info ] [MainThread]: 
+Your new dbt project "movielens_elt_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:56:38.341777 [info ] [MainThread]: Setting up your profile.
+[0m22:59:21.734975 [info ] [MainThread]: Profile movielens_elt_pipeline written to /home/mohamed/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:59:21.742437 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 276.71466, "process_in_blocks": "4912", "process_kernel_time": 0.502425, "process_mem_max_rss": "120760", "process_out_blocks": "20", "process_user_time": 1.806016}
+[0m22:59:21.745375 [debug] [MainThread]: Command `dbt init` succeeded at 22:59:21.744960 after 276.72 seconds
+[0m22:59:21.747408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825bcecfc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825bce4830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74825bcc1260>]}
+[0m22:59:21.749890 [debug] [MainThread]: Flushing usage events
+[0m22:59:23.687141 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:59:36.281223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c812fa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c9845950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c6fb3d90>]}
+
+
+============================== 22:59:36.284556 | 21e3ca8d-8d22-4ef8-b82d-cad02faae150 ==============================
+[0m22:59:36.284556 [info ] [MainThread]: Running with dbt=1.10.11
+[0m22:59:36.285139 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'profiles_dir': '/home/mohamed/.dbt', 'partial_parse': 'True', 'log_path': 'logs', 'use_colors': 'True', 'log_cache_events': 'False', 'quiet': 'False', 'introspect': 'True', 'write_json': 'True', 'printer_width': '80', 'log_format': 'default', 'indirect_selection': 'eager', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'empty': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None'}
+[0m22:59:36.421360 [info ] [MainThread]: dbt version: 1.10.11
+[0m22:59:36.422042 [info ] [MainThread]: python version: 3.13.5
+[0m22:59:36.422590 [info ] [MainThread]: python path: /media/sda3/projects/MovieLens-elt-pipeline/dbt_venv/bin/python
+[0m22:59:36.423160 [info ] [MainThread]: os info: Linux-6.14.0-29-generic-x86_64-with-glibc2.39
+[0m22:59:37.179850 [info ] [MainThread]: Using profiles dir at /home/mohamed/.dbt
+[0m22:59:37.180497 [info ] [MainThread]: Using profiles.yml file at /home/mohamed/.dbt/profiles.yml
+[0m22:59:37.180988 [info ] [MainThread]: Using dbt_project.yml file at /media/sda3/projects/MovieLens-elt-pipeline/dbt_project.yml
+[0m22:59:37.181551 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:59:37.182612 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.9463131, "process_in_blocks": "1480", "process_kernel_time": 0.470797, "process_mem_max_rss": "121960", "process_out_blocks": "4", "process_user_time": 1.83252}
+[0m22:59:37.183384 [debug] [MainThread]: Command `dbt debug` failed at 22:59:37.183296 after 0.95 seconds
+[0m22:59:37.183735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c58f6b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c5954710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c92c58a98c0>]}
+[0m22:59:37.184160 [debug] [MainThread]: Flushing usage events
+[0m22:59:38.693388 [debug] [MainThread]: An error was encountered while trying to flush usage events

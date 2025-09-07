@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: movielens
+    schema: RAW
+    tables:
+      - name: raw_movies
+        identifier: raw_movies
+      - name: raw_ratings
+        identifier: raw_ratings
+      - name: raw_tags
+        identifier: raw_tags
+      - name: raw_genome_tags
+        identifier: raw_genome_tags
+      - name: raw_genome_scores
+        identifier: raw_genome_scores
+      - name: raw_links 
+        identifier: raw_links
+
